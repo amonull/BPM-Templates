@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=LibreWolf
+Comment=LibreWolf
+Icon=librewolf
+Exec=librewolf
+Terminal=False
+Catagories=webbrowser;AppImage;appimage;WebBrowser;
+Keywords=LibreWolf;librewolf;internet;appimage;

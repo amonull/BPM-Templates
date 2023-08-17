@@ -1,0 +1,16 @@
+Name="LibreWolf.x86_64.AppImage{librewolf}"
+Version="{AUTO->curl -s --header "Accept: application/json"  "https://gitlab.com/api/v4/projects/24386000/releases" | awk -F ':' '{print $2}' | awk -F ',' '{print $1}' | tr -d '"v'}"
+Revision="1"
+URL="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/{VERSION}/LibreWolf.x86_64.AppImage"
+
+BPM_deps=""
+Host_deps=""
+
+Conflicts=""
+Checksum=""
+Premissions="{BIN}>744"
+
+Manpages=""
+Completions=""
+Desktop="{TEMPLATE}/LibreWolf.desktop"
+Files=""

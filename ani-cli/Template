@@ -1,0 +1,16 @@
+Name="ani-cli"
+Version="{AUTO->curl -s "https://api.github.com/repos/pystardust/ani-cli/tags" | grep name | head -n 1 | awk -F ':' '{print $2}' | tr -d '",v'}"
+Revision="1"
+URL="https://github.com/pystardust/ani-cli.git"
+
+BPM_deps=""
+Host_deps="grep sed curl mpv aria2c ffmpeg fzf"
+
+Conflicts=""
+Checksum=""
+Premissions="{BIN}>744"
+
+Manpages="ani-cli.1"
+Completions=""
+Desktop="{TEMPLATE}/ani-cli.desktop"
+Files=""

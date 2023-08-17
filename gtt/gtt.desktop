@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=gtt
+Comment=TUI translator
+Exec=gtt %U
+Icon=gtt
+Terminal=true
+Keywords=languages;translation;TUI;tui;go;golang;google;translate;

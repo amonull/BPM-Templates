@@ -1,0 +1,16 @@
+Name="Obsidian-{VERSION}.AppImage{obsidian}"
+Version="{AUTO->curl -s "https://api.github.com/repos/obsidianmd/obsidian-releases/tags" | grep name | head -n 1 | awk -F ':' '{print $2}' | tr -d '",v'}"
+Revision="1"
+URL="https://github.com/obsidianmd/obsidian-releases/releases/download/v{VERSION}/Obsidian-{VERSION}.AppImage"
+
+BPM_deps=""
+Host_deps=""
+
+Conflicts=""
+Checksum=""
+Premissions="{BIN}>744"
+
+Manpages=""
+Completions=""
+Desktop="{TEMPLATE}/obsidian.desktop"
+Files=""

@@ -1,0 +1,1 @@
+/home/amon/.local/share/BPM/pkgs/bpm/files/build.sh
