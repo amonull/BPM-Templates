@@ -1,0 +1,16 @@
+Name="mangal"
+Version="{AUTO->curl -s "https://api.github.com/repos/metafates/mangal/tags" | grep "name" | head -n 1 | awk -F ':' '{print $2}' | tr -d '"v,'}"
+Revision="1"
+URL="https://github.com/metafates/mangal/releases/download/v{VERSION}/mangal_{VERSION}_Linux_x86_64.tar.gz"
+
+BPM_deps=""
+Host_deps=""
+
+Conflicts=""
+Checksum=""
+Premissions="{BIN}>744"
+
+Manpages=""
+Completions="completions/mangal.bash completions/mangal.fish completions/mangal.zsh"
+Desktop="{TEMPLATE}/mangal.desktop"
+Files=""
