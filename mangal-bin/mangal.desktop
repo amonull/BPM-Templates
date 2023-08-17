@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=mangal
+Comment=Tui based manga reader and downloader written in go
+Exec=mangal %U
+Icon=mangal
+Terminal=true
+Keywords=manga;reading;zathura;downloading;pdf;
