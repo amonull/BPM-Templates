@@ -2,6 +2,8 @@
 
 A collection of Templates i use when downloading from BPM
 
+This repo should give an idea about how templates can be created but also give an idea about how you can make your own centralized repo like this one to keep a track of all of your templates and to maintain them in a single repo.
+
 # IMPORTANT
 
 currently moving files is problmatic as the last set file into every possible location.
