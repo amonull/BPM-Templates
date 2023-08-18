@@ -1,0 +1,16 @@
+Name="pdf-wc"
+Version="1.0"
+Revision="1"
+URL="https://github.com/amonull/pdf-wc.git"
+
+BPM_deps=""
+Host_deps="CAM::PDF GetOpt::Long"
+
+Conflicts=""
+Checksum=""
+Premissions="{BIN}>744"
+
+Manpages=""
+Completions=""
+Desktop=""
+Files=""

@@ -1,5 +1,5 @@
 Name="ani-cli"
-Version="{AUTO->curl -s "https://api.github.com/repos/pystardust/ani-cli/tags" | grep name | head -n 1 | awk -F ':' '{print $2}' | tr -d '",v'}"
+Version="{AUTO->curl -s "https://github.com/pystardust/ani-cli/tags" | grep "Link--primary Link" | awk -F '</a>' '{print $1}' | awk -F '>' '{print $NF}' | tr -d 'v' | head -n 1}"
 Revision="1"
 URL="https://github.com/pystardust/ani-cli.git"
 
