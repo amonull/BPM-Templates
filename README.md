@@ -7,6 +7,8 @@ A collection of Templates i use when downloading from BPM
 currently moving files is problmatic as the last set file into every possible location.
 Most likely an issue with BPM so the recommended way of downloading templates from here is to use the manual usage.
 
+Should now be fixed with bpm => v1.1.3
+
 # Usage
 
 1. Clone this repo
