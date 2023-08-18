@@ -1,0 +1,16 @@
+Name="{NONE}"
+Version="{AUTO->curl -s "https://api.github.com/repos/amonull/BPM-Templates/tags" | grep name | head -n 1 | awk -F ':' '{print $2}' | tr -d '",v'}"
+Revision="1"
+URL="https://github.com/amonull/BPM-Templates.git"
+
+BPM_deps=""
+Host_deps=""
+
+Conflicts=""
+Checksum=""
+Premissions=""
+
+Manpages=""
+Completions=""
+Desktop=""
+Files="ani-cli/Template>{HOME}/.local/share/BPM/repos/ani-cli/Template ani-cli/ani-cli.desktop>{HOME}/.local/share/BPM/repos/ani-cli/ani-cli.desktop gtt/Template>{HOME}/.local/share/BPM/repos/gtt/Template gtt/gtt.desktop>{HOME}/.local/share/BPM/repos/gtt/gtt.desktop librewolf/Template>{HOME}/.local/share/BPM/repos/librewolf/Template librewolf/LibreWolf.desktop>{HOME}/.local/share/BPM/repos/librewolf/LibreWolf.desktop mangal-bin/Template>{HOME}/.local/share/BPM/repos/mangal-bin/Template mangal-bin/mangal.desktop>{HOME}/.local/share/BPM/repos/mangal-bin/mangal.desktop mangal/Template>{HOME}/.local/share/BPM/repos/mangal/Template mangal/build.sh>{HOME}/.local/share/BPM/repos/mangal/build.sh mangal/mangal.desktop>{HOME}/.local/share/BPM/repos/mangal/mangal.desktop obsidian/Template>{HOME}/.local/share/BPM/repos/obsidian/Template obsidian/obsidian.desktop>{HOME}/.local/share/BPM/repos/obsidian/obsidian.desktop"
